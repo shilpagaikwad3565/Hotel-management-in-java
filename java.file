@@ -1,0 +1,791 @@
+package com.analytiqlearning.course.fsd.corejava.projects;
+import java.util.Scanner;
+
+public class Hotel {
+	
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("*********** WELCOME TO AAYUSH HOTEL *************");
+				for(int i=0;;i++) {
+					System.out.println("  ------Are You Hungry-------?" );
+					System.out.println(" -------- Don't Wait------------");
+					System.out.println("  --------Let's Order---------");
+
+		System.out.println("Our Delicious & Famous dishes is: ");   
+		System.out.println("1.North Indian Food");
+		System.out.println("2.East  Indian Food");
+		System.out.println("3.West  Indian Food");
+		System.out.println("4.South Indian Food");
+		System.out.println("Enter your choice :");
+		int choice=sc.nextInt();
+		System.out.println( "--------------------------------------------------------");
+		switch(choice) {
+		case 1:
+			
+			System.out.println("Our dishes in North food");
+			System.out.println("1.Aloo Tikki..............60rs");
+			System.out.println("2.Chicken Tikka Masala.............100rs");
+			System.out.println("3.Tandoori Chicken............150rs");
+			System.out.println("4.Rajma Masala...............100rs");
+			System.out.println("5.Bhindi Masala................100rs");
+			System.out.println("Enter order:");
+			int Northfood=sc.nextInt();
+			
+			if(Northfood==1)
+			{
+				System.out.println("Your order : Aloo Tikki");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter 1.Confirm");
+				System.out.println("2.cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Northfood==2)
+			{
+				System.out.println("Your order : Chicken Tikka Masala");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Northfood==3)
+			{
+				System.out.println("Your order : Tandoori Chicken");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Northfood==4)
+			{
+				System.out.println("Your order : Rajma Masala");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Northfood==5)
+			{
+				System.out.println("Your order : Bhindi Masala");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			
+
+
+			
+		case 2 :
+			System.out.println("In Eastfood Our Menus");
+			System.out.println("1.Litti choka..................150rs");
+			System.out.println("2.Momos...........................100rs");
+			System.out.println("3.Fish Curry........................120rs");
+			System.out.println("4.Manchurian........................60rs");
+			System.out.println("5.Aloo Chop.........................100rs");
+			
+			System.out.println("Enter order:");
+			int Eastfood =sc.nextInt();
+			
+			if(Eastfood==1)
+			{
+				System.out.println("Your order : Litti choka");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter 1.Confirm");
+				System.out.println("2.cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Eastfood==2)
+			{
+				System.out.println("Your order : Momos");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+	
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Eastfood==3)
+			{
+				System.out.println("Your order : Fish Curry");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Eastfood==4)
+			{
+				System.out.println("Your order : Manchurian");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Eastfood==5)
+			{
+				System.out.println("Your order :Aloo chop");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			
+			
+			
+			
+		case 3:
+			System.out.println("In West food Our Dishes are:");
+			System.out.println("1.Vada Pav.....................30rs");
+			System.out.println("2.Misal........................100rs");
+			System.out.println("3.Shrikhand........................60rs");
+			System.out.println("4.Sabudana vada.....................50rs");
+			System.out.println("5.Panipuri..........................20rs");
+			System.out.println("Enter order:");
+			int Westfood=sc.nextInt();
+			
+			if(Westfood==1)
+			{
+				System.out.println("Your order : Vada pav");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter 1.Confirm");
+				System.out.println("2.cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Westfood==2)
+			{
+				System.out.println("Your order is : Misal ");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Westfood==3)
+			{
+				System.out.println("Your order : Shrikhand");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Westfood==4)
+			{
+				System.out.println("Your order : Shabudana vada");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			if(Westfood==5)
+			{
+				System.out.println("Your order : Panipuri");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			
+			
+			
+			
+		case 4:
+			System.out.println("In South Food our dishes ");
+			System.out.println("1.Dosa..............50rs");
+            System.out.println("2.Itali.................40rs");
+            System.out.println("3.Rasam..................50rs");
+            System.out.println("4.Curd rice................60rs");
+            System.out.println("5.Pongal....................50rs");
+            System.out.println("Enter order:");
+			int Southfood=sc.nextInt();
+			
+			if(Southfood==1)
+			{
+				System.out.println("Your order : Dosa");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter 1.Confirm");
+				System.out.println("2.cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			
+			if(Southfood==2)
+			{
+				System.out.println("Your order : Itali");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			
+			if(Southfood==3)
+			{
+				System.out.println("Your order : Rasam");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+		
+			if(Southfood==4)
+			{
+				System.out.println("Your order : Curd rice");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+			
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			
+			if(Southfood==5)
+			{
+				System.out.println("Your order : Pongal");
+				System.out.println("How much quantity you want to order ?");
+				int quantity = sc.nextInt();
+				System.out.println("For confirmation order");
+				System.out.println("Enter	:1.Confirm");
+				System.out.println("2.Cancel");
+				int confirm = sc.nextInt();
+				
+				if(confirm==1)
+				{
+					System.out.println("Your order is confirmed");
+					System.out.println("anything else  order you want");
+					System.out.println("1.yes or 2.no");
+					int yesNo=sc.nextInt();
+					if(yesNo==1)
+					{
+						break;
+					}
+					else
+					{
+						System.out.println("thank you");
+						System.exit(0);
+					}
+					System.out.println("...................................................");
+					break;
+				}
+				else
+				{
+					System.out.println("Thank you visit again");
+					System.out.println("...................................................");
+					System.exit(0);
+				}
+			}
+			            
+		
+            
+		}
+		}
+
+	}
+
+}
